@@ -1,0 +1,28 @@
+{
+  "name": "node_react_app",
+  "version": "1.0.0",
+  "description": "Fullstack NodeJS application using ReactJS in the frontend, NodeJS(express) as server and MongoDB as database",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "keywords": [
+    "Node",
+    "React",
+    "Fullstack"
+  ],
+  "author": "Yogesh Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cluster": "^0.7.7",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1",
+    "mongoose": "^8.0.4"
+  }
+}
